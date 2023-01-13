@@ -1,0 +1,79 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
+
+/* commone style */
+body {
+    font-family: 'Poppins', sans-serif;
+
+    background-color: #FFFFFF;
+}
+
+.bg-color {
+    background-color: rgb(208, 219, 217);
+}
+
+.title {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.manu {
+    font-size: 20px;
+}
+
+/*group-leader start  */
+.group-leader{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 27px;
+    grid-column-gap: 30px;
+    margin-top: 70px;
+}
+
+.leader {
+    Width: 300px;
+    Height: 465px;
+    background-color: #FFFFFF;
+    border: 15px solid #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 4px 2px 20px rgb(216, 212, 212);
+    text-align: center;
+}
+
+.leader-img img {
+    width: 270px;
+    height: 256px;
+}
+
+.leader-info h1 {
+    color: #18191F;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+.scout-level .img {
+    padding-left: 7rem !important;
+}
+.activities{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 2px;
+    grid-column-gap: 30px;
+    margin-top: 70px;
+    padding-left: 150px;
+}
+
+
+.footer-logo img {
+    padding: 5px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
