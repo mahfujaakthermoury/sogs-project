@@ -62,14 +62,23 @@ body {
     padding-left: 7rem !important;
 }
 .activities{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 2px;
-    grid-column-gap: 30px;
-    margin-top: 70px;
-    padding-left: 150px;
+    text-align: center;
+    padding:0px 140px;
 }
-
+.activities .text{
+    padding-top: 5px;
+    font-weight: 700;
+}
+.activities img {
+    border-radius: 10px;
+}
+.activities a{
+    text-decoration: none;
+    color: brown;
+}
+.activities a:hover{
+    color: #6a6ac2;
+}
 
 .footer-logo img {
     padding: 5px;
